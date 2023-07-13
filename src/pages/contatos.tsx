@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+
 
 const Contatos = () =>{
     return(
@@ -11,7 +11,42 @@ const Contatos = () =>{
         
         <div>
             <h1>Contatos</h1>
-            <Link href="/"> Ir para página inicial</Link>
+           <ul>
+            <li>
+                <span>E-mail</span>
+                <div>
+                    <a href="mailto:guilherme.gomes.ti1@gmail.com">guilherme.gomes.ti1@gmail.com</a>
+                </div>
+            </li>
+
+            <li>
+                <span>E-mail</span>
+                <div>
+                    <a href="mailto:guilherme.gomes.ti1@gmail.com">guilherme.gomes.ti1@gmail.com</a>
+                </div>
+            </li>
+
+            <li>
+                <span>LInkedin</span>
+                <div>
+                    <a href="http://Linkedim">guilherme.gomes.ti1@gmail.com</a>
+                </div>
+            </li>
+
+            <li>
+                <span>github</span>
+                <div>
+                    <a href="github">guilherme.gomes.ti1@gmail.com</a>
+                </div>
+            </li>
+
+            <li>
+                <span>E-mail</span>
+                <div>
+                    <a href="mailto:guilherme.gomes.ti1@gmail.com">guilherme.gomes.ti1@gmail.com</a>
+                </div>
+            </li>
+           </ul>
         </div>
         </>
         
