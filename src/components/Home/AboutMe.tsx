@@ -14,7 +14,7 @@ export const AboutMe = () => {
         <h1 className="text-3xl sm:text-7xl xl:leading-[80px]">
           {" "}
           Prazer, sou&nbsp;
-          <span className="font-bold">Guilherme</span>
+         <strong>Guilherme</strong>
         </h1>
 
         <div className="mb-12  ">
@@ -62,6 +62,8 @@ export const AboutMe = () => {
         </ul>
       </div>
       <div className="relative">
+        <br/>
+        <br/>
         <Image
           src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
           unoptimized
