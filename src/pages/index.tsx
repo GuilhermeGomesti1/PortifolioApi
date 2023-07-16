@@ -1,4 +1,5 @@
 import { AboutMe } from '@/components/Home/AboutMe'
+import { Projects } from '@/components/Home/Projects';
 import Head from "next/head";
 
 
@@ -6,6 +7,7 @@ import Head from "next/head";
 
 
 const Home = () =>  {
+ 
   return (
     <>
      <Head>
@@ -14,6 +16,7 @@ const Home = () =>  {
      </Head>
     <div className="py-12 px-6 md:pdx-32 space-y-10 md:space-y-28">
     <AboutMe/>
+    <Projects/>
     </div>
     
     </>

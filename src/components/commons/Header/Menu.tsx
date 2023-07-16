@@ -11,7 +11,7 @@ export const Menu = ({ isVisible, onClose }: MenuProps) => {
     <div
       className={`${isVisible ? "flex" : "hidden"}
     fixed inset-0 w-full h-full bg-black bg-opacity-40 backdrop-blur-sm md-hidden`}
-      onClick={onClose}
+      onClick={onClose}  style={{ zIndex: 10 }}
     >
       <div
         className="w-full bg-h-blue-900 h-96 shadow-md py-4 px-5"

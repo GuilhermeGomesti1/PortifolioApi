@@ -54,16 +54,15 @@ export const AboutMe = () => {
             next-js
           </li>
           <li
-            style={{ backgroundColor: "#000000", color: "  #FFFFFF" }}
+            style={{ backgroundColor: "#388E3C", color: " #37474F" }}
             className="w-fit p-2 rounded-md"
           >
-            node
+            Node
           </li>
         </ul>
       </div>
-      <div className="relative">
-        <br/>
-        <br/>
+      <div className="relative" style={{ zIndex: 1 }}>
+      
         <Image
           src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
           unoptimized

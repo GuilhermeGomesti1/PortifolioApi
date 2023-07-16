@@ -22,7 +22,7 @@ const Contatos = () => {
               >
                 guilherme.gomes.ti1@gmail.com
               </a>
-              <CopyButton/>
+              <CopyButton textToCopy="guilherme.gomes.ti1@gmail.com"/>
             </div>
           </li>
 
@@ -63,19 +63,7 @@ const Contatos = () => {
             </div>
           </li>
 
-          <li className="md:text-xl">
-            <span className="font-bold">E-mail</span>
-            <div className="flex gap-1 md:gap3 items-center">
-              <a
-                href="mailto:guilherme.gomes.ti1@gmail.com"
-                className="text-sm md:text-lg text-slate-300 underline truncate"
-              >
-                guilherme.gomes.ti1@gmail.com
-              </a>
-              
-             
-            </div>
-          </li>
+         
         </ul>
       </div>
     </>
