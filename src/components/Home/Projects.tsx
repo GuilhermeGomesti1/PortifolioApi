@@ -24,8 +24,8 @@ export const Projects = () => {
           `https://raw.githubusercontent.com/GuilhermeGomesti1/${repoName}/master/public/images/image_url`
         );
         if (masterResponse.status === 404) {
-          // Se a URL também não for encontrada na branch "master", retorna uma string vazia
-          return  "";
+          
+          return "";
         } else {
           const masterData = await masterResponse.text();
           const masterImageUrl = masterData.trim();
@@ -68,9 +68,8 @@ export const Projects = () => {
       ];
       const mappedProjects = await Promise.all(
         data.map(async (repo: any, index: number) => {
-          if (ignoredRepos.includes(repo.name) ) {
+          if (ignoredRepos.includes(repo.name)) {
             return null;
-            
           }
           await new Promise((resolve) => setTimeout(resolve, 200 * index));
           const imageUrl = await fetchImageUrl(repo.name); // Busca a URL da imagem correspondente ao projeto
@@ -121,7 +120,7 @@ export const Projects = () => {
                 width={300}
                 height={300}
                 className="object-cover rounded-2xl h-[18.75rem] mb-4"
-                priority={true} 
+                priority={true}
               />
               <span>{name}</span>
               <div className="bg-h-blue-500 rounded-xl w-14 h-14 text-center flex justify-center items-center text-3xl absolute bottom-[1.25rem] -right-[1.25rem]">
