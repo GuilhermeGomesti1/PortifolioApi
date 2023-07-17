@@ -24,7 +24,6 @@ export const Projects = () => {
           `https://raw.githubusercontent.com/GuilhermeGomesti1/${repoName}/master/public/images/image_url`
         );
         if (masterResponse.status === 404) {
-          
           return "";
         } else {
           const masterData = await masterResponse.text();
@@ -71,7 +70,7 @@ export const Projects = () => {
           if (ignoredRepos.includes(repo.name)) {
             return null;
           }
-          await new Promise((resolve) => setTimeout(resolve, 0.100 * index));
+          await new Promise((resolve) => setTimeout(resolve, 0.1 * index));
           const imageUrl = await fetchImageUrl(repo.name); // Busca a URL da imagem correspondente ao projeto
           return {
             slug: repo.name,
@@ -97,19 +96,22 @@ export const Projects = () => {
 
   return (
     <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
-      <p  className="text-center mx-auto">
-        Total de Projetos no GitHub: {""}
-        <a
-          href="https://github.com/GuilhermeGomesti1"
-          target="_blanck"
-          rel="noopener noreferrer"
-          title="Conferir no GitHub"
-         
-        >
+      <a
+        href="https://github.com/GuilhermeGomesti1"
+        target="_blanck"
+        rel="noopener noreferrer"
+        title="Conferir no GitHub"
+        className="text-center mx-auto"
+      >
+        {" "}
+        <p className="text-center mx-auto">
+          Total de Projetos no GitHub: {""}
           {totalRepositories}
-        </a>
-      </p>
-      <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto">Projetos Recentes</h2>
+        </p>{" "}
+      </a>
+      <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto">
+        Projetos Recentes
+      </h2>
 
       <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
         {projects.map(({ slug, name, image /*description*/ }, index) => (
