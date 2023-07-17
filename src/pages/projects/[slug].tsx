@@ -145,7 +145,7 @@ const ProjectDetails = () => {
         height={300}
         className="object-cover rounded-2xl mb-10 mt-2 "
       />
-      <div className="flex flex-col items-center justify-center w-3/4 md:w-1/4">
+      <div className="flex flex-col items-center justify-center w-3/4 ">
         <div className="  px-4 py-5  border border-h-blue-500 rounded-lg shadow-lg text-center ">
           <p className="text-lg md:text-xl  ">
             {descriptionToShow}
