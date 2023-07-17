@@ -1,3 +1,31 @@
+https://myprojectapi-two.vercel.app/
+
+Este projeto é uma aplicação web que exibe meus projetos recentes hospedados no GitHub. Através de uma integração com a API do GitHub, os projetos são recuperados e exibidos em uma lista, com suas respectivas imagens e informações básicas.
+
+Tecnologias Utilizadas
+React (com Next.js)
+TypeScript
+Tailwind CSS
+API do GitHub
+Funcionalidades
+Exibição dos projetos recentes do GitHub
+Imagens e informações básicas de cada projeto
+Navegação para detalhes de cada projeto
+Uso de rotas dinâmicas para navegação intuitiva e acesso aos detalhes de cada projeto
+Site responsivo, adaptável a diferentes tamanhos de tela, proporcionando uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops
+Menu intuitivo para acesso fácil e rápido às diferentes seções do site
+Utilização de ícones e botões para uma interface amigável e intuitiva
+Como Executar o Projeto
+Clone o repositório para o seu ambiente local.
+Instale as dependências utilizando o comando npm install.
+Execute o projeto com o comando npm run dev.
+Acesse a aplicação em http://localhost:3000.
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
