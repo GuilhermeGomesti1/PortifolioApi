@@ -63,14 +63,16 @@ export const AboutMe = () => {
       </div>
       <div className="relative" style={{ zIndex: 1 }}>
       
-        <Image
-          src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
-          unoptimized
-          width={500}
-          height={500}
-          alt="imagem de perfil github encontrar ela"
-          className="rounded-full"
-        />
+      <div className="pr-3">
+  <Image
+    src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
+    unoptimized
+    width={500}
+    height={500}
+    alt="imagem de perfil github encontrar ela"
+    className="rounded-full"
+  />
+</div>
         <p className="p-4 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm-bottom-3">
           <span className="text-4xl">2+</span>
           <br />

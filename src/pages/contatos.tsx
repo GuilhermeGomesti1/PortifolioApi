@@ -19,6 +19,7 @@ const Contatos = () => {
               <a
                 href="mailto:guilherme.gomes.ti1@gmail.com"
                 className="text-sm md:text-lg text-slate-300 underline truncate"
+                target="_blank"
               >
                 guilherme.gomes.ti1@gmail.com
               </a>
@@ -26,40 +27,33 @@ const Contatos = () => {
             </div>
           </li>
 
-          <li className="md:text-xl">
-            <span className="font-bold">E-mail</span>
-            <div className="flex gap-1 md:gap3 items-center">
-              <a
-                href="mailto:guilherme.gomes.ti1@gmail.com"
-                className="text-sm md:text-lg text-slate-300 underline truncate"
-              >
-                guilherme.gomes.ti1@gmail.com
-              </a>
-              
-            </div>
-          </li>
+       
 
           <li className="md:text-xl">
             <span className="font-bold">LInkedin</span>
             <div className="flex gap-1 md:gap3 items-center">
               <a
-                href="http://Linkedim"
+                href="https://www.linkedin.com/in/guilherme-gomes-427321238"
                 className="text-sm md:text-lg text-slate-300 underline truncate"
+                target="_blank"
               >
-                guilherme.gomes.ti1@gmail.com
+                linkedin.com/in/guilherme-gomes-427321238
               </a>
+              <CopyButton textToCopy="https://www.linkedin.com/in/guilherme-gomes-427321238"/>
             </div>
           </li>
 
           <li className="md:text-xl">
-            <span className="font-bold">github</span>
+            <span className="font-bold">GitHub</span>
             <div className="flex gap-1 md:gap3 items-center">
               <a
-                href="github"
+                href=" https://github.com/GuilhermeGomesti1"
                 className="text-sm md:text-lg text-slate-300 underline truncate"
+                target="_blank"
               >
-                guilherme.gomes.ti1@gmail.com
+                https://github.com/GuilhermeGomesti1
               </a>
+              <CopyButton textToCopy="https://github.com/GuilhermeGomesti1"/>
             </div>
           </li>
 

@@ -12,6 +12,8 @@ module.exports = {
         "h-blue-500": "#8CAAEE",
         "h-blue-900": "#303446",
       },
+
+      
       width: {
        
       },
@@ -20,5 +22,6 @@ module.exports = {
       },
     },
   },
+  
   plugins: [],
 };
