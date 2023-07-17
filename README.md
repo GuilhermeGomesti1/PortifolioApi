@@ -1,6 +1,6 @@
 https://myprojectapi-two.vercel.app/
 
-é uma aplicação web que exibe meus projetos recentes hospedados no GitHub. Através de uma integração com a API do GitHub, os projetos são recuperados e exibidos em uma lista, com suas respectivas imagens e informações básicas.
+Este projeto é uma aplicação web que exibe meus projetos recentes hospedados no GitHub. Através de uma integração com a API do GitHub, os projetos são recuperados e exibidos em uma lista, com suas respectivas imagens e informações básicas.
 
 Tecnologias Utilizadas
 React (com Next.js)
