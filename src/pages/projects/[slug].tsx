@@ -147,7 +147,7 @@ const ProjectDetails = () => {
       />
       <div className="flex flex-col items-center justify-center w-3/4 ">
         <div className="  px-4 py-5  border border-h-blue-500 rounded-lg shadow-lg text-center ">
-          <p className="text-lg md:text-xl  ">
+        <p className="text-lg md:text-xl overflow-hidden w-64 md:w-auto">
             {descriptionToShow}
             {!showFullDescription && (
               <button
