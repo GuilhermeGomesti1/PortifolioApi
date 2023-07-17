@@ -48,7 +48,7 @@ export const Projects = () => {
       );
       const data = await response.json();
       const ignoredRepos = [
-        "myprojectapi",
+       
         "GuilhermeGomesti1",
         "hortifruti",
         "cronometro",
