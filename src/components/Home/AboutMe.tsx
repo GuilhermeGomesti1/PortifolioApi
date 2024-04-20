@@ -37,49 +37,49 @@ export const AboutMe = () => {
         <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-4 text-xl sm:gap-4 ">
           <li
             style={{ backgroundColor: "#2f74c0", color: " #FFFFFF" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             TypesSript
           </li>
           <li
             style={{ backgroundColor: "#68ddfa", color: " #000000" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             React
           </li>
           <li
             style={{ backgroundColor: "#EFD81D", color: " #000000" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             JavasSript
           </li>
           <li
             style={{ backgroundColor: "#000000", color: "  #FFFFFF" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             Next-js
           </li>
           <li
             style={{ backgroundColor: "#FFFFFF", color: " #37474F" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             Node.js
           </li>
           <li
             style={{ backgroundColor: "#FFFFFF", color: " #388E3C" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             MongoDB
           </li>
           <li
             style={{ backgroundColor: "black", color: " #ffffff" }}
-            className="w-fit p-2 rounded-md"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
             Cypress
           </li>
           <li
             style={{ backgroundColor: "#FB6BFF", color: " #FFFFFF" }}
-            className="w-fit p-2 rounded-md"
+            className="w-33 p-2 rounded-md flex items-center justify-center"
           >
             APIs RESTful
           </li>
