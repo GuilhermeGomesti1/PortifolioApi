@@ -19,7 +19,7 @@ export const AboutMe = () => {
         <div className="mb-4">
           <div className="mb-2 max-w-4xl mx-auto">
             {" "}
-            <h2 className="text-1xl md:text-1xl lg:text-base text-white text-justify mx-auto sm:text-lg ">
+            <h2 className="text-1xl md:text-1xl lg:text-base text-white text-left mx-auto sm:text-lg ">
               Desenvolvedor full stack com três anos de experiência, focado em
               desenvolver sites responsivos usando Next.js e React.js,
               gerenciamento de banco de dados e APIs. No seu último trabalho,

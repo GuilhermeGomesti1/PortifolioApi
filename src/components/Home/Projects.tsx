@@ -101,7 +101,7 @@ export const Projects = () => {
         <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-12">
           Experiência
         </h2>
-        <div className="mb-4 text-justify">
+        <div className="mb-4 text-left">
           {" "}
           {/* Justifica o texto */}
           <h3 className="text-1xl md:text-1xl font-semibold">
@@ -136,7 +136,7 @@ export const Projects = () => {
             Link para o site
           </a>
         </div>
-        <div className="mb-4 text-justify">
+        <div className="mb-4 text-left">
           {" "}
           <h3 className="text-1xl md:text-1xl font-semibold">
             DESENVOLVEDOR WEB- FULL STACK
@@ -189,7 +189,7 @@ export const Projects = () => {
         <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-8">
           Projetos Recentes
         </h2>
-        <p className="text-center mx-auto mb-4">
+        <p className="text-center text-xs sm:text-sm mx-auto mb-8">
           Os projetos abaixo são exibidos utilizando integração direta com a API
           do GitHub para recuperação e exibição de informações e imagens dos
           projetos desenvolvidos.
