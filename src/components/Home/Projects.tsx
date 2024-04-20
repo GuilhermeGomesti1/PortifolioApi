@@ -101,7 +101,7 @@ export const Projects = () => {
         <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-12">
           Experiência
         </h2>
-        <div className="mb-4 text-justify">
+        <div className="mb-4 ">
           {" "}
           {/* Justifica o texto */}
           <h3 className="text-1xl md:text-1xl font-semibold">
@@ -136,7 +136,7 @@ export const Projects = () => {
             Link para o site
           </a>
         </div>
-        <div className="mb-4 text-justify">
+        <div className="mb-4 ">
           {" "}
           <h3 className="text-1xl md:text-1xl font-semibold">
             DESENVOLVEDOR WEB- FULL STACK
