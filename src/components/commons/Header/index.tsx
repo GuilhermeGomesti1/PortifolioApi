@@ -10,35 +10,32 @@ const roboto = Roboto({
   weight: "500",
 });
 
-export const Header = () => { 
+export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const openMenu = useCallback (() =>{
+  const openMenu = useCallback(() => {
     setIsMenuOpen(true);
-  },[]);
+  }, []);
 
-  const closeMenu = useCallback (() =>{
+  const closeMenu = useCallback(() => {
     setIsMenuOpen(false);
-  },[]);
+  }, []);
   return (
-    <header className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center stick top-0 z-20` }>
+    <header
+      className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center stick top-0 z-20`}
+    >
       <Link href="/">
-        <Image
-          src="/favicon.ico"
-          width={55}
-          height={55}
-          alt="icone da pagina"
-        />
+        <Image src="/home.png" width={55} height={55} alt="icone da pagina" />
       </Link>
       <button className="p-1 md:hidden" onClick={openMenu}>
-        <MenuIcon className="fill-white w-10 h-10"/>
+        <MenuIcon className="fill-white w-10 h-10" />
       </button>
       <nav className="hidden md:flex items-center gap-10 text-md">
         <Link href="/"> Sobre mim </Link>
         <Link href="/portifolio"> Portifolio </Link>
         <Link href="/contatos"> Contato </Link>
       </nav>
-      <Menu isVisible={isMenuOpen} onClose={closeMenu}/>
+      <Menu isVisible={isMenuOpen} onClose={closeMenu} />
     </header>
   );
 };

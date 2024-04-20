@@ -86,14 +86,14 @@ export const AboutMe = () => {
         </ul>
       </div>
       <div className="relative" style={{ zIndex: 1 }}>
-        <div className="pr-3 sm:pr-20">
+        <div className="pr-0 sm:pr-20">
           <Image
             src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
             unoptimized
             width={500}
             height={500}
             alt="imagem de perfil github encontrar ela"
-            className="rounded-full"
+            className="rounded-full -mt-12 sm:m-0"
           />
         </div>
         <p className="p-2 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm-bottom-3">

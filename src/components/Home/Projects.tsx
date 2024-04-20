@@ -172,30 +172,30 @@ export const Projects = () => {
           </a>
         </div>{" "}
       </div>
-
-      <a
-        href="https://github.com/GuilhermeGomesti1"
-        target="_blanck"
-        rel="noopener noreferrer"
-        title="Conferir no GitHub"
-        className="text-center mx-auto"
-      >
-        {" "}
-        <p className="text-center mx-auto ">
-          Total de Projetos no GitHub: {""}
-          {totalRepositories}
-        </p>{" "}
-      </a>
-      <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto">
-        Projetos Recentes
-      </h2>
-      <p className="text-center mx-auto mb-4">
-        Os projetos abaixo são exibidos utilizando integração direta com a API
-        do GitHub para recuperação e exibição de informações e imagens dos
-        projetos desenvolvidos.
-      </p>
-
-      <ul className="flex flex-wrap gap-16 justify-center  ">
+      <div className="mt-4 mb-4 text-center mx-auto">
+        <a
+          href="https://github.com/GuilhermeGomesti1"
+          target="_blanck"
+          rel="noopener noreferrer"
+          title="Conferir no GitHub"
+          className="text-center mx-auto"
+        >
+          {" "}
+          <p className="text-center mx-auto ">
+            Total de Projetos no GitHub: {""}
+            {totalRepositories}
+          </p>{" "}
+        </a>
+        <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-8">
+          Projetos Recentes
+        </h2>
+        <p className="text-center mx-auto mb-4">
+          Os projetos abaixo são exibidos utilizando integração direta com a API
+          do GitHub para recuperação e exibição de informações e imagens dos
+          projetos desenvolvidos.
+        </p>
+      </div>
+      <ul className="flex flex-wrap gap-16 justify-center ">
         {projects.map(({ slug, name, image /*description*/ }, index) => (
           <Link href={`/projects/${slug}`} key={name + index}>
             <li className="text-md relative">
