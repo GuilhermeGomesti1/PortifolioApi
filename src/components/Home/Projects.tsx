@@ -107,23 +107,23 @@ export const Projects = () => {
           <h3 className="text-1xl md:text-1xl font-semibold">
             DESENVOLVEDOR WEB- FULL STACK
           </h3>
-          <p className="text-sm mb-1 sm:text-base sm:mb-2">
+          <p className="text-xs mb-2 sm:text-base sm:mb-2">
             Music For All- Escola de Música | Agosto/2023 - Março/2024
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs   mb-2 sm:text-sm sm:mb-2">
             . Implementação e manutenção de uma plataforma educacional
             interativa que permite aos visitantes explorar cursos, agendar aulas
             e conhecer virtualmente a escola.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs   mb-2 sm:text-sm sm:mb-2">
             . Sistema de interação social, metrônomo digital, vídeo aulas e
             download de materiais para alunos autenticados.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs  mb-2 sm:text-sm sm:mb-2">
             . Loja online, com uma API própria alcançando 100% de eficácia na
             gestão e vendas.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs  sm:text-sm sm:mb-2">
             . Implementação de testes automatizados garantindo a qualidade do
             software e redução de erros.
           </p>
@@ -131,34 +131,34 @@ export const Projects = () => {
             href="https://escolamusicforall.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline underline text-xs"
           >
             Link para o site
           </a>
         </div>
         <div className="mb-4 text-left">
           {" "}
-          <h3 className="text-1xl md:text-1xl font-semibold">
+          <h3 className="text-1xl  md:text-1xl font-semibold">
             DESENVOLVEDOR WEB- FULL STACK
           </h3>
-          <p className="text-sm mb-1 sm:text-base sm:mb-2">
+          <p className="text-xs mb-2 sm:text-base sm:mb-2">
             Vida Saudável- Nutrição | Janeiro 2023 - Junho/2023
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs mb-2 sm:text-sm sm:mb-2">
             . Criação de uma infraestrutura de e-commerce, habilitando a venda
             de e-books e outras publicações digitais.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs mb-2 sm:text-sm sm:mb-2">
             . Integração com sistemas de gerenciamento de conteúdo (CMS),
             permitindo ao cliente a autogestão eficiente do conteúdo, reduzindo
             significativamente a necessidade de manutenção, garantindo autonomia
             total e economia de tempo para o cliente.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs mb-2 sm:text-sm sm:mb-2">
             . Loja online, com uma API própria alcançando 100% de eficácia na
             gestão e vendas.
           </p>
-          <p className="text-sm sm:text-sm sm:mb-2">
+          <p className="text-xs  sm:text-sm sm:mb-2">
             . Implementação de testes automatizados garantindo a qualidade do
             software e redução de erros.
           </p>
@@ -166,7 +166,7 @@ export const Projects = () => {
             href="https://gisleneoliveira.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline underline text-xs"
           >
             Link para o site
           </a>
@@ -181,7 +181,7 @@ export const Projects = () => {
           className="text-center mx-auto"
         >
           {" "}
-          <p className="text-center mx-auto ">
+          <p className="text-center mx-auto underline">
             Total de Projetos no GitHub: {""}
             {totalRepositories}
           </p>{" "}
