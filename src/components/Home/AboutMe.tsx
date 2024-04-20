@@ -34,7 +34,7 @@ export const AboutMe = () => {
         >
           Converse comigo
         </Link>
-        <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-4 text-xl sm:gap-4 ">
+        <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-3 text-xl sm:gap-3 ">
           <li
             style={{ backgroundColor: "#2f74c0", color: " #FFFFFF" }}
             className="w-32 p-2 rounded-md flex items-center justify-center"
@@ -79,7 +79,7 @@ export const AboutMe = () => {
           </li>
           <li
             style={{ backgroundColor: "#FB6BFF", color: " #FFFFFF" }}
-            className="w-33 p-2 rounded-md flex items-center justify-center"
+            className="w-32.1 p-2 rounded-md flex items-center justify-center"
           >
             APIs RESTful
           </li>
