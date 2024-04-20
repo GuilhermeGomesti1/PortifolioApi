@@ -190,9 +190,9 @@ export const Projects = () => {
           Projetos Recentes
         </h2>
         <p className="text-center text-xs sm:text-sm mx-auto mb-8">
-          Os projetos abaixo são exibidos utilizando integração direta com a API
-          do GitHub para recuperação e exibição de informações e imagens dos
-          projetos desenvolvidos.
+          &quot; Os projetos abaixo são exibidos utilizando integração direta
+          com a API do GitHub para recuperação e exibição de informações e
+          imagens dos projetos desenvolvidos. &quot;
         </p>
       </div>
       <ul className="flex flex-wrap gap-16 justify-center ">
