@@ -79,9 +79,9 @@ export const AboutMe = () => {
           </li>
           <li
             style={{ backgroundColor: "#FB6BFF", color: " #FFFFFF" }}
-            className="w-32.1 p-2 rounded-md flex items-center justify-center"
+            className="w-32 p-2 rounded-md flex items-center justify-center"
           >
-            APIs RESTful
+            APIs
           </li>
         </ul>
       </div>
