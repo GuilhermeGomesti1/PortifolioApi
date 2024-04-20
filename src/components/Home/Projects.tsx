@@ -181,7 +181,7 @@ export const Projects = () => {
           className="text-center mx-auto"
         >
           {" "}
-          <p className="text-center mx-auto underline">
+          <p className="text-center mx-auto underline text-xs">
             Total de Projetos no GitHub: {""}
             {totalRepositories}
           </p>{" "}
