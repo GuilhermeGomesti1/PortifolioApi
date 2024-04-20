@@ -48,7 +48,6 @@ export const Projects = () => {
       );
       const data = await response.json();
       const ignoredRepos = [
-       
         "GuilhermeGomesti1",
         "hortifruti",
         "cronometro",
@@ -64,6 +63,7 @@ export const Projects = () => {
         "Musicforall",
         "node",
         "Organo",
+        "testes-e2e-com-cypress",
       ];
       const mappedProjects = await Promise.all(
         data.map(async (repo: any, index: number) => {
@@ -95,7 +95,7 @@ export const Projects = () => {
   };
 
   return (
-    <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
+    <article className="space-y-10 flex flex-col items-center xl:items-start text-center xl:text-left">
       <a
         href="https://github.com/GuilhermeGomesti1"
         target="_blanck"
@@ -112,8 +112,13 @@ export const Projects = () => {
       <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto">
         Projetos Recentes
       </h2>
+      <p className="text-center mx-auto">
+        Os projetos abaixo são exibidos utilizando integração direta com a API
+        do GitHub para recuperação e exibição de informações e imagens dos
+        projetos desenvolvidos.
+      </p>
 
-      <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
+      <ul className="flex flex-wrap gap-16 justify-center ">
         {projects.map(({ slug, name, image /*description*/ }, index) => (
           <Link href={`/projects/${slug}`} key={name + index}>
             <li className="text-md relative">

@@ -14,21 +14,18 @@ export const AboutMe = () => {
         <h1 className="text-3xl sm:text-7xl xl:leading-[80px]">
           {" "}
           Prazer, sou&nbsp;
-         <strong>Guilherme</strong>
-        </h1>
-
-        <div className="mb-12  ">
-          <h2 className={`${roboto.className} mb-12`}>
-            Sou um desenvolvedor front-end
-          </h2>
-          <Link
-            href="/contatos"
-            className="p-3 bg-h-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80"
-          >
-            Converse comigo
-          </Link>
+          <strong>Guilherme</strong>
+        </h1>{" "}
+        <Link
+          href="/contatos"
+          className="p-3  bg-h-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80"
+        >
+          Converse comigo
+        </Link>
+        <div className="mb-2  ">
+          <h2 className={`${roboto.className} mb-12`}>FULL STACK DEVELOPER</h2>
         </div>
-        <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:2-fit gap-3 text-xl">
+        <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-4 xl:2-fit gap-3 text-xl">
           <li
             style={{ backgroundColor: "#2f74c0", color: " #FFFFFF" }}
             className="w-fit p-2 rounded-md"
@@ -54,27 +51,44 @@ export const AboutMe = () => {
             next-js
           </li>
           <li
-            style={{ backgroundColor: "#388E3C", color: " #37474F" }}
+            style={{ backgroundColor: "#FFFFFF", color: " #37474F" }}
             className="w-fit p-2 rounded-md"
           >
-            Node
+            Node.js
+          </li>
+          <li
+            style={{ backgroundColor: "#FFFFFF", color: " #388E3C" }}
+            className="w-fit p-2 rounded-md"
+          >
+            MongoDB
+          </li>
+          <li
+            style={{ backgroundColor: "black", color: " #ffffff" }}
+            className="w-fit p-2 rounded-md"
+          >
+            Cypress
+          </li>
+          <li
+            style={{ backgroundColor: "#FB6BFF", color: " #FFFFFF" }}
+            className="w-fit p-2 rounded-md"
+          >
+            APIs RESTful
           </li>
         </ul>
       </div>
       <div className="relative" style={{ zIndex: 1 }}>
-      
-      <div className="pr-3">
-  <Image
-    src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
-    unoptimized
-    width={500}
-    height={500}
-    alt="imagem de perfil github encontrar ela"
-    className="rounded-full"
-  />
-</div>
+        <div className="pr-3 sm:pr-20">
+          <Image
+            src="https://avatars.githubusercontent.com/u/106498363?u=69944eb7c6a61b6f01b54fa9d6d953c60725ecf6&v=4"
+            unoptimized
+            width={500}
+            height={500}
+            alt="imagem de perfil github encontrar ela"
+            className="rounded-full"
+          />
+        </div>
         <p className="p-4 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm-bottom-3">
-          <span className="text-4xl">2+</span>
+          <span className="text-4xl">3+</span>
           <br />
           anos de experiencia
         </p>
