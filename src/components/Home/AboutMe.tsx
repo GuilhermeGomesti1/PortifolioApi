@@ -34,7 +34,7 @@ export const AboutMe = () => {
         >
           Converse comigo
         </Link>
-        <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-2 text-xl ">
+        <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-4 text-xl sm:gap-4 ">
           <li
             style={{ backgroundColor: "#2f74c0", color: " #FFFFFF" }}
             className="w-fit p-2 rounded-md"
