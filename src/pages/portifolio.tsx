@@ -57,26 +57,30 @@ const Portfolio = () => {
 
           <div className="mb-4">
             <h3 className="text-xl font-semibold">
-              Desenvolvedor Web | Front-end
+              DESENVOLVEDOR WEB- FULL STACK
             </h3>
             <p className="text-sm mb-1">
-              Freelancer | Janeiro 2023 - Março 2023
+              Music For All- Escola de Música | Agosto/2023 - Março/2024
             </p>
             <p>
-              Desenvolvimento de Site Completo com Sistema de Gestão de Conteúdo
-              utilizando Next.js, TypeScript, JavaScript, HTML e SCSS.
+              . Implementação e manutenção de uma plataforma educacional
+              interativa que permite aos visitantes explorar cursos, agendar
+              aulas e conhecer virtualmente a escola.
             </p>
             <p>
-              Habilidade em programação para construir todas as funcionalidades
-              do site de forma responsiva.
+              . Sistema de interação social, metrônomo digital, vídeo aulas e
+              download de materiais para alunos autenticados.
             </p>
             <p>
-              Implementação bem-sucedida de Sistema de Gestão de Conteúdo para
-              permitir atualização autônoma de conteúdo pelo cliente.
+              . Loja online, com uma API própria alcançando 100% de eficácia na
+              gestão e vendas.
             </p>
-            <p>Entrega do site com sucesso ao cliente.</p>
+            <p>
+              . Implementação de testes automatizados garantindo a qualidade do
+              software e redução de erros.
+            </p>
             <a
-              href="https://healthy-life-3x0qh2huz-guilhermegomesti1.vercel.app/"
+              href="https://escolamusicforall.com.br/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
@@ -85,6 +89,40 @@ const Portfolio = () => {
             </a>
           </div>
 
+          <div className="mb-4">
+            <h3 className="text-xl font-semibold">
+              DESENVOLVEDOR WEB- FULL STACK
+            </h3>
+            <p className="text-sm mb-1">
+              Vida Saudável- Nutrição | Janeiro 2023 - Junho/2023
+            </p>
+            <p>
+              . Criação de uma infraestrutura de e-commerce, habilitando a venda
+              de e-books e outras publicações digitais.
+            </p>
+            <p>
+              . Integração com sistemas de gerenciamento de conteúdo (CMS),
+              permitindo ao cliente a autogestão eficiente do conteúdo,
+              reduzindo significativamente a necessidade de manutenção,
+              garantindo autonomia total e economia de tempo para o cliente.
+            </p>
+            <p>
+              . Loja online, com uma API própria alcançando 100% de eficácia na
+              gestão e vendas.
+            </p>
+            <p>
+              . Implementação de testes automatizados garantindo a qualidade do
+              software e redução de erros.
+            </p>
+            <a
+              href="https://gisleneoliveira.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              Link para o site
+            </a>
+          </div>
           <div className="mb-4">
             <h3 className="text-xl font-semibold">Professor de Música</h3>
             <p className="text-sm mb-1">

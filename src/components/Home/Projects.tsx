@@ -95,7 +95,84 @@ export const Projects = () => {
   };
 
   return (
-    <article className="space-y-10 flex flex-col items-center xl:items-start text-center xl:text-left">
+    <article className="space-y-1 flex flex-col items-center xl:items-start text-center xl:text-left">
+      <div className="mb-8 max-w-7xl mx-auto">
+        {" "}
+        <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-12">
+          Experiência
+        </h2>
+        <div className="mb-4 text-justify">
+          {" "}
+          {/* Justifica o texto */}
+          <h3 className="text-1xl md:text-1xl font-semibold">
+            DESENVOLVEDOR WEB- FULL STACK
+          </h3>
+          <p className="text-sm mb-1 sm:text-base sm:mb-2">
+            Music For All- Escola de Música | Agosto/2023 - Março/2024
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Implementação e manutenção de uma plataforma educacional
+            interativa que permite aos visitantes explorar cursos, agendar aulas
+            e conhecer virtualmente a escola.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Sistema de interação social, metrônomo digital, vídeo aulas e
+            download de materiais para alunos autenticados.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Loja online, com uma API própria alcançando 100% de eficácia na
+            gestão e vendas.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Implementação de testes automatizados garantindo a qualidade do
+            software e redução de erros.
+          </p>
+          <a
+            href="https://escolamusicforall.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Link para o site
+          </a>
+        </div>
+        <div className="mb-4 text-justify">
+          {" "}
+          <h3 className="text-1xl md:text-1xl font-semibold">
+            DESENVOLVEDOR WEB- FULL STACK
+          </h3>
+          <p className="text-sm mb-1 sm:text-base sm:mb-2">
+            Vida Saudável- Nutrição | Janeiro 2023 - Junho/2023
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Criação de uma infraestrutura de e-commerce, habilitando a venda
+            de e-books e outras publicações digitais.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Integração com sistemas de gerenciamento de conteúdo (CMS),
+            permitindo ao cliente a autogestão eficiente do conteúdo, reduzindo
+            significativamente a necessidade de manutenção, garantindo autonomia
+            total e economia de tempo para o cliente.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Loja online, com uma API própria alcançando 100% de eficácia na
+            gestão e vendas.
+          </p>
+          <p className="text-sm sm:text-sm sm:mb-2">
+            . Implementação de testes automatizados garantindo a qualidade do
+            software e redução de erros.
+          </p>
+          <a
+            href="https://gisleneoliveira.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Link para o site
+          </a>
+        </div>{" "}
+      </div>
+
       <a
         href="https://github.com/GuilhermeGomesti1"
         target="_blanck"
@@ -104,7 +181,7 @@ export const Projects = () => {
         className="text-center mx-auto"
       >
         {" "}
-        <p className="text-center mx-auto">
+        <p className="text-center mx-auto ">
           Total de Projetos no GitHub: {""}
           {totalRepositories}
         </p>{" "}
@@ -112,13 +189,13 @@ export const Projects = () => {
       <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto">
         Projetos Recentes
       </h2>
-      <p className="text-center mx-auto">
+      <p className="text-center mx-auto mb-4">
         Os projetos abaixo são exibidos utilizando integração direta com a API
         do GitHub para recuperação e exibição de informações e imagens dos
         projetos desenvolvidos.
       </p>
 
-      <ul className="flex flex-wrap gap-16 justify-center ">
+      <ul className="flex flex-wrap gap-16 justify-center  ">
         {projects.map(({ slug, name, image /*description*/ }, index) => (
           <Link href={`/projects/${slug}`} key={name + index}>
             <li className="text-md relative">
@@ -127,7 +204,7 @@ export const Projects = () => {
                 alt={image.alt}
                 width={300}
                 height={300}
-                className="object-cover rounded-2xl h-[18.75rem] mb-4"
+                className="object-cover rounded-2xl h-[18.75rem] mb-2  sm:mt-8"
                 priority={true}
               />
               <span>{name}</span>

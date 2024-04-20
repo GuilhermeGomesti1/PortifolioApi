@@ -13,42 +13,51 @@ export const AboutMe = () => {
       <div className="text=white flex flex-col items-center xl:items:start gap-4 w-full xl:w-120">
         <h1 className="text-3xl sm:text-7xl xl:leading-[80px]">
           {" "}
-          Prazer, sou&nbsp;
-          <strong>Guilherme</strong>
+          &nbsp;
+          <strong>Guilherme Gomes</strong>
         </h1>{" "}
+        <div className="mb-4">
+          <div className="mb-2 max-w-4xl mx-auto">
+            {" "}
+            <h2 className="text-1xl md:text-1xl lg:text-base text-white text-justify mx-auto sm:text-lg ">
+              Desenvolvedor full stack com três anos de experiência, focado em
+              desenvolver sites responsivos usando Next.js e React.js,
+              gerenciamento de banco de dados e APIs. No seu último trabalho,
+              promoveu um aumento de mais de 60% na busca de produtos e serviços
+              para uma empresa local.
+            </h2>
+          </div>
+        </div>
         <Link
           href="/contatos"
-          className="p-3  bg-h-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80"
+          className="p-3  bg-h-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80 mb-8"
         >
           Converse comigo
         </Link>
-        <div className="mb-2  ">
-          <h2 className={`${roboto.className} mb-12`}>FULL STACK DEVELOPER</h2>
-        </div>
-        <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-4 xl:2-fit gap-3 text-xl">
+        <ul className="flex flex-wrap justify-center  xl:grid-cols-8 xl:2-fit gap-2 text-xl ">
           <li
             style={{ backgroundColor: "#2f74c0", color: " #FFFFFF" }}
             className="w-fit p-2 rounded-md"
           >
-            typescript
+            TypesSript
           </li>
           <li
             style={{ backgroundColor: "#68ddfa", color: " #000000" }}
             className="w-fit p-2 rounded-md"
           >
-            react
+            React
           </li>
           <li
             style={{ backgroundColor: "#EFD81D", color: " #000000" }}
             className="w-fit p-2 rounded-md"
           >
-            javascript
+            JavasSript
           </li>
           <li
             style={{ backgroundColor: "#000000", color: "  #FFFFFF" }}
             className="w-fit p-2 rounded-md"
           >
-            next-js
+            Next-js
           </li>
           <li
             style={{ backgroundColor: "#FFFFFF", color: " #37474F" }}
@@ -87,8 +96,8 @@ export const AboutMe = () => {
             className="rounded-full"
           />
         </div>
-        <p className="p-4 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm-bottom-3">
-          <span className="text-4xl">3+</span>
+        <p className="p-2 w-fit text-base leading-tight bg-h-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm-bottom-3">
+          <span className="text-3xl">3+</span>
           <br />
           anos de experiencia
         </p>
