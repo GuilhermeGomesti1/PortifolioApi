@@ -71,7 +71,7 @@ export const Projects = () => {
             return null;
           }
           await new Promise((resolve) => setTimeout(resolve, 0.1 * index));
-          const imageUrl = await fetchImageUrl(repo.name); // Busca a URL da imagem correspondente ao projeto
+          const imageUrl = await fetchImageUrl(repo.name);
           return {
             slug: repo.name,
             name: repo.name,
@@ -96,7 +96,7 @@ export const Projects = () => {
 
   return (
     <article className="space-y-1 flex flex-col items-center xl:items-start text-center xl:text-left">
-      <div className="mb-8 max-w-7xl mx-auto">
+      <div className="mb-8 max-w-[1440px] mx-auto">
         {" "}
         <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-12">
           Experiência
