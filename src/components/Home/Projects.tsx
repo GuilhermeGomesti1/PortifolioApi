@@ -201,26 +201,26 @@ export const Projects = () => {
           <Link href={`/projects/${slug}`} key={name + index}>
             <div className="bg-white rounded-xl shadow-md overflow-visible w-[300px] h-[400px] sm:w-[20rem]">
               <li className="text-md relative flex flex-col justify-between">
-                <div className="bg-h-blue-500 rounded-xl w-14 h-14 text-center flex justify-center items-center text-3xl relative z-1 bottom-[1.5rem] left-[17rem] mb-[-2rem]">
+                <div className="bg-h-blue-500 rounded-xl w-14 h-14 text-center flex justify-center items-center text-3xl relative z-1 top-[22.5rem] left-[17rem] mb-[-2rem]">
                   <span>{index + 1}</span>
                 </div>
-                <div className="flex items-center justify-center h-[200px]">
+                <div className="flex items-center justify-center h-[200px] ">
                   <Image
                     src={image.url}
                     alt={image.alt}
                     width={300}
                     height={300}
-                    className="object-contain max-h-[200px] rounded-t-xl"
+                    className="object-contain max-h-[200px] rounded-t-xl mt-[-2rem]"
                     priority={true}
                   />
                 </div>
                 <div className="p-4">
-                  <span className="block font-medium text-xl text-center  text-gray-500">
+                  <span className="block font-medium text-xl text-center  text-blue-500">
                     {name}
                   </span>
 
                   <p
-                    className="text-sm text-gray-500 max-w-[20rem] justify-start mt-3 text-center"
+                    className="text-sm text-gray-500 max-w-[20rem] justify-center mt-2 "
                     style={{
                       display: "-webkit-box",
                       WebkitBoxOrient: "vertical",
