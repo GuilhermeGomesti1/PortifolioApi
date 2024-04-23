@@ -2,7 +2,7 @@ import { Project } from "@/types/Home";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import { RightArrow } from "../icons/RightArrow";
 interface ProjectsProps {
   projects: Project[];
 }
@@ -198,7 +198,7 @@ export const Projects = () => {
 
       <ul className="flex flex-wrap gap-16 justify-center ">
         {projects.map(({ slug, name, image, description }, index) => (
-          <Link href={`/projects/${slug}`} key={name + index}>
+          <>
             <div
               className=" shadow-md overflow-visible w-[300px] h-[400px] sm:w-[20rem] rounded-xl "
               style={{ backgroundColor: "#223050" }}
@@ -213,7 +213,7 @@ export const Projects = () => {
                     alt={image.alt}
                     width={300}
                     height={300}
-                    className="object-contain max-h-[200px]  mt-[0rem] rounded-t-xl"
+                    className="object-contain max-h-[200px]  mt-[0rem] "
                     priority={true}
                   />
                 </div>
@@ -221,7 +221,6 @@ export const Projects = () => {
                   <span className="block font-medium text-xl text-center  text-white">
                     {name}
                   </span>
-
                   <p
                     className="text-sm text-gray-400 max-w-[20rem] justify-center mt-2 "
                     style={{
@@ -232,11 +231,17 @@ export const Projects = () => {
                     }}
                   >
                     {description}
-                  </p>
+                  </p>{" "}
+                  <Link href={`/projects/${slug}`} key={name + index}>
+                    <button className=" bg-blue-500 text-center  items-center inline-flex px-3 py-1 text-sm font-medium text-white rounded-l rounded-r mt-8 ">
+                      <span style={{ marginRight: "0.5rem" }}>Saiba mais </span>{" "}
+                      <RightArrow />
+                    </button>
+                  </Link>
                 </div>
               </li>
             </div>
-          </Link>
+          </>
         ))}
       </ul>
     </article>
