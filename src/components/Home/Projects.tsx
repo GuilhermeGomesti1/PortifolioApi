@@ -204,7 +204,7 @@ export const Projects = () => {
               style={{ backgroundColor: "#223050" }}
             >
               <li className="text-md relative flex flex-col justify-between">
-                <div className="bg-h-blue-500 rounded-xl w-10 h-10 text-center flex justify-center items-center text-2xl relative z-1 top-[23.2rem] left-[18rem] mb-[-2rem]">
+                <div className="bg-h-blue-500 rounded-xl w-10 h-10 text-center flex justify-center items-center text-2xl relative z-1 top-[23.2rem] left-[17.8rem] mb-[-2rem]">
                   <span>{index + 1}</span>
                 </div>
                 <div className="flex items-center justify-center h-[200px] bg-white mt-[-1.3rem] rounded-t-xl ">
