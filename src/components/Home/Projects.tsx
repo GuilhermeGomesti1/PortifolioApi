@@ -200,11 +200,11 @@ export const Projects = () => {
         {projects.map(({ slug, name, image, description }, index) => (
           <>
             <div
-              className=" shadow-md overflow-visible w-[300px] h-[400px] sm:w-[20rem] rounded-xl "
+              className=" shadow-md overflow-visible w-[300px] h-[390px] sm:w-[20rem] rounded-xl "
               style={{ backgroundColor: "#223050" }}
             >
               <li className="text-md relative flex flex-col justify-between">
-                <div className="bg-h-blue-500 rounded-xl w-10 h-10 text-center flex justify-center items-center text-2xl relative z-1 top-[23.2rem] left-[18rem] mb-[-2rem]">
+                <div className="bg-h-blue-500 rounded-xl w-10 h-10 text-center flex justify-center items-center text-2xl relative z-1 top-[22.8rem] left-[18rem] mb-[-2rem]">
                   <span>{index + 1}</span>
                 </div>
                 <div className="flex items-center justify-center h-[200px] bg-white mt-[-1.3rem] rounded-t-xl ">
@@ -218,11 +218,11 @@ export const Projects = () => {
                   />
                 </div>
                 <div className="p-4">
-                  <span className="block font-medium text-xl text-center  text-white">
+                  <span className="block font-medium text-xl text-center mt-2 mb-3  text-white">
                     {name}
                   </span>
                   <p
-                    className="text-sm text-gray-400 max-w-[20rem] justify-center mt-2 "
+                    className="text-sm text-gray-400 max-w-[20rem] text-left justify-center mt-2 "
                     style={{
                       display: "-webkit-box",
                       WebkitBoxOrient: "vertical",
@@ -233,7 +233,7 @@ export const Projects = () => {
                     {description}
                   </p>{" "}
                   <Link href={`/projects/${slug}`} key={name + index}>
-                    <button className=" bg-blue-500 text-center  items-center inline-flex px-3 py-1 text-sm font-medium text-white rounded-l rounded-r mt-8 ">
+                    <button className=" bg-blue-500 items-center inline-flex px-3 py-1 text-sm font-medium text-white rounded-l rounded-r mt-6 ">
                       <span style={{ marginRight: "0.5rem" }}>Saiba mais </span>{" "}
                       <RightArrow />
                     </button>
