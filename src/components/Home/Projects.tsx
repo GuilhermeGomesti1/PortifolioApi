@@ -67,7 +67,7 @@ export const Projects = () => {
         "CursoCypress",
         "cypress-todomvc",
         "demoqa-cypress",
-        "Portifolioapi",
+        "PortifolioApi",
         "starwars-api",
       ];
       const mappedProjects = await Promise.all(
