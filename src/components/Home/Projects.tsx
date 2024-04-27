@@ -64,6 +64,9 @@ export const Projects = () => {
         "node",
         "Organo",
         "testes-e2e-com-cypress",
+        "CursoCypress",
+        "cypress-todomvc",
+        "demoqa-cypress",
       ];
       const mappedProjects = await Promise.all(
         data.map(async (repo: any, index: number) => {
