@@ -224,7 +224,7 @@ export const Projects = () => {
                 </div>
                 <div className="p-4">
                   <span className="block font-medium text-xl text-center mt-2 mb-3  text-white">
-                    {name}
+                    {name.charAt(0).toUpperCase() + name.slice(1)}
                   </span>
                   <p
                     className="text-sm text-gray-400 max-w-[20rem] text-left justify-center mt-2 "
