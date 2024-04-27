@@ -67,6 +67,8 @@ export const Projects = () => {
         "CursoCypress",
         "cypress-todomvc",
         "demoqa-cypress",
+        "Portifolioapi",
+        "starwars-api",
       ];
       const mappedProjects = await Promise.all(
         data.map(async (repo: any, index: number) => {
@@ -176,6 +178,9 @@ export const Projects = () => {
         </div>{" "}
       </div>
       <div className="mt-4 mb-4 text-center mx-auto">
+        <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-1">
+          Exemplos do Repositório
+        </h2>{" "}
         <a
           href="https://github.com/GuilhermeGomesti1"
           target="_blanck"
@@ -184,14 +189,11 @@ export const Projects = () => {
           className="text-center mx-auto"
         >
           {" "}
-          <p className="text-center mx-auto underline text-xs">
-            Total de Projetos no GitHub: {""}
+          <p className="text-center mx-auto underline text-xs mb-8">
+            Ver todos Projetos no GitHub:
             {totalRepositories}
-          </p>{" "}
+          </p>
         </a>
-        <h2 className="text-2xl md:text-4xl text-blue-500 text-center mx-auto mb-8">
-          Projetos Recentes
-        </h2>
         <p className="text-center text-xs sm:text-sm mx-auto mb-8">
           &quot; Os projetos abaixo são exibidos utilizando integração direta
           com a API do GitHub para recuperação e exibição de informações e
